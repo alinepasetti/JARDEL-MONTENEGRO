@@ -3146,11 +3146,11 @@ a {
 }
 
 a:hover {
-  color: #32343a;
+  color: #ff9600;
 }
 
 a:active {
-  color: #43464d;
+  color: #ff9600;
 }
 
 ul {
@@ -4845,7 +4845,7 @@ figcaption {
 }
 
 .text-span {
-  color: #4368ff;
+  color: #ff9600;
 }
 
 .link {
@@ -5145,14 +5145,6 @@ figcaption {
     text-align: center;
     padding: 15px 30px;
     transition: background-color .4s, opacity .4s, color .4s;
-  }
-
-  .navigation-item:hover {
-    background-color: #f7f8f9;
-  }
-
-  .navigation-item:active {
-    background-color: #eef0f3;
   }
 
   .products-list {
