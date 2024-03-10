@@ -206,21 +206,12 @@
                 <div class="pipe-card">
                     <h2 class="modal-heading">Pipe House</h2>
                     <div style="padding-top:56.17021276595745%" class="w-embed-youtubevideo youtube">
-                        <iframe width="560" height="315"
-                            src="https://www.youtube.com/embed/X6UP7xIBWQE?si=owhYk8gz9wLTQ8ue"
-                            title="PIPE HOUSE ITACARÉ" frameborder="0"
-                            style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"
-                            allowfullscreen>
-
-                        </iframe>
-
-                        <!-- <iframe
+                        <iframe
                             src="https://www.youtube.com/embed/X6UP7xIBWQE?rel=0&amp;controls=1&amp;autoplay=0&amp;mute=0&amp;start=0"
                             frameBorder="0"
                             style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto"
                             allow="autoplay; encrypted-media" allowfullscreen="" title="PIPE HOUSE ITACARÉ">
-                        </iframe> -->
+                        </iframe>
                     </div>
                 </div>
                 <div class="budha-card">
@@ -283,6 +274,8 @@
         document.addEventListener('DOMContentLoaded', function () {
             // Function to open modal and display the correct card
             function openModal(projectCardClass) {
+                // Prevent the default behavior of going to the top of the page
+                event.preventDefault();
                 // Display the modal wrapper and the close button
                 document.querySelector('.modal-wrapper-copy').style.display = 'flex';
                 document.querySelector('.close-button').style.display = 'block';
